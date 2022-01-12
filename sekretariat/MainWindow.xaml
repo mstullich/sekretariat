@@ -1,0 +1,50 @@
+﻿<Window x:Class="sekretariat.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:sekretariat"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="1048" Width="1488">
+    <Grid Margin="-439,-321,-32,-6">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="1744*"/>
+        </Grid.ColumnDefinitions>
+        <Button Content="Zatwierdz&#xD;&#xA;" Grid.Column="1" HorizontalAlignment="Left" Margin="818,730,0,0" VerticalAlignment="Top" Height="44" Width="95"/>
+        <Label Content="" Grid.Column="1" HorizontalAlignment="Left" Margin="905,430,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="32" Width="38">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-3.316"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Margin="875,431,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Margin="875,505,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Margin="875,466,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Margin="875,542,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Margin="875,578,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Margin="875,615,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Margin="875,684,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="760,431,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="18"><Run Language="pl-pl" Text="Imie"/><LineBreak/><Run Language="pl-pl"/></TextBlock>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="760,468,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="83"><Run Language="pl-pl" Text="Drugie Imie"/></TextBlock>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="760,505,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="83"><Run Language="pl-pl" Text="Nazwisko"/><LineBreak/><Run Language="pl-pl"/></TextBlock>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="760,541,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="115" Height="19"><Run Language="pl-pl" Text="Nazwisko  Panienskie"/><LineBreak/><Run Language="pl-pl"/></TextBlock>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="760,578,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="98"><Run Language="pl-pl" Text="Imie Matki"/><LineBreak/><Run Language="pl-pl"/></TextBlock>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="760,615,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="58"><Run Language="pl-pl" Text="Imie Ojca"/><LineBreak/><Run Language="pl-pl"/></TextBlock>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="760,652,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="98"><Run Language="pl-pl" Text="Data urodzenia"/><LineBreak/><Run Language="pl-pl"/></TextBlock>
+        <DatePicker Grid.Column="1" HorizontalAlignment="Left" Margin="875,644,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="760,684,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="pl-pl" Text="Pesel"/><LineBreak/><Run Language="pl-pl"/></TextBlock>
+
+        <Grid >
+            <TabControl>
+                <TabItem Header="Nauczyciel">
+                </TabItem>
+            </TabControl>
+        </Grid>
+        
+    </Grid>
+</Window>
