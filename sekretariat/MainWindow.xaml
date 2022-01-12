@@ -50,7 +50,6 @@
                     <TextBox Grid.Column="3" HorizontalAlignment="Left" Margin="218,170,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
                     <TextBox Grid.Column="3" HorizontalAlignment="Left" Margin="218,210,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
                     <TextBox Grid.Column="3" HorizontalAlignment="Left" Margin="218,250,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-                    <TextBox Grid.Column="3" HorizontalAlignment="Left" Margin="218,290,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
                     <TextBlock Grid.Column="3" HorizontalAlignment="Left" Margin="103,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="18"><Run Language="pl-pl" Text="Imie"/><LineBreak/><Run Language="pl-pl"/></TextBlock>
                     <TextBlock Grid.Column="3" HorizontalAlignment="Left" Margin="103,91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="83"><Run Language="pl-pl" Text="Drugie Imie"/></TextBlock>
                     <TextBlock Grid.Column="3" HorizontalAlignment="Left" Margin="103,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="83"><Run Language="pl-pl" Text="Nazwisko"/><LineBreak/><Run Language="pl-pl"/></TextBlock>
@@ -65,17 +64,17 @@
                     <TextBlock Grid.Column="3" HorizontalAlignment="Left" Margin="586,83,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="pl-pl" Text="Klasa"/><LineBreak/><Run Language="pl-pl"/></TextBlock>
                     <TextBlock Grid.Column="3" HorizontalAlignment="Left" Margin="586,117,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="pl-pl" Text="Grupa"/><LineBreak/><Run Language="pl-pl"/></TextBlock>
                     <ComboBox Grid.Column="3" HorizontalAlignment="Left" Margin="670,41,0,0" VerticalAlignment="Top" Width="120" >
-                        
-                           
-                            <ComboBoxItem>Mezczyzna</ComboBoxItem>
-                            <ComboBoxItem>Kobieta</ComboBoxItem>
-                              
-                            
-                        
+
+
+                        <ComboBoxItem>Mezczyzna</ComboBoxItem>
+                        <ComboBoxItem>Kobieta</ComboBoxItem>
+
+
+
                     </ComboBox>
-                        
-                        
-                        
+
+
+
                     <ComboBox Grid.Column="3" HorizontalAlignment="Left" Margin="670,77,0,0" VerticalAlignment="Top" Width="120">
 
                         <ComboBoxItem>cos1</ComboBoxItem>
@@ -94,9 +93,10 @@
 
 
 
-                     </ComboBox>
-                    
-                    
+                    </ComboBox>
+                    <DatePicker Grid.Column="3" HorizontalAlignment="Left" Margin="218,282,0,0" VerticalAlignment="Top"/>
+
+
                 </Grid>
             </TabItem >
 
@@ -108,23 +108,6 @@
                         <ColumnDefinition Width="17*"/>
                         <ColumnDefinition Width="1922*"/>
                     </Grid.ColumnDefinitions>
-                    <TextBox Grid.Column="3" HorizontalAlignment="Left" Margin="218,51,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
-                    <TextBox Grid.Column="3" HorizontalAlignment="Left" Margin="218,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-                    <TextBox Grid.Column="3" HorizontalAlignment="Left" Margin="218,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-                    <TextBox Grid.Column="3" HorizontalAlignment="Left" Margin="218,170,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-                    <TextBox Grid.Column="3" HorizontalAlignment="Left" Margin="218,210,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-                    <TextBox Grid.Column="3" HorizontalAlignment="Left" Margin="218,250,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-                    <TextBox Grid.Column="3" HorizontalAlignment="Left" Margin="218,290,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-                    <TextBlock Grid.Column="3" HorizontalAlignment="Left" Margin="103,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="18"><Run Language="pl-pl" Text="Imie"/><LineBreak/><Run Language="pl-pl"/></TextBlock>
-                    <TextBlock Grid.Column="3" HorizontalAlignment="Left" Margin="103,91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="83"><Run Language="pl-pl" Text="Drugie Imie"/></TextBlock>
-                    <TextBlock Grid.Column="3" HorizontalAlignment="Left" Margin="103,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="83"><Run Language="pl-pl" Text="Nazwisko"/><LineBreak/><Run Language="pl-pl"/></TextBlock>
-                    <TextBlock Grid.Column="3" HorizontalAlignment="Left" Margin="103,170,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="115" Height="19"><Run Language="pl-pl" Text="Nazwisko  Panienskie"/><LineBreak/><Run Language="pl-pl"/></TextBlock>
-                    <TextBlock Grid.Column="3" HorizontalAlignment="Left" Margin="103,210,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="98"><Run Language="pl-pl" Text="Imie Matki"/><LineBreak/><Run Language="pl-pl"/></TextBlock>
-                    <TextBlock Grid.Column="3" HorizontalAlignment="Left" Margin="103,250,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="58"><Run Language="pl-pl" Text="Imie Ojca"/><LineBreak/><Run Language="pl-pl"/></TextBlock>
-                    <TextBlock Grid.Column="3" HorizontalAlignment="Left" Margin="103,290,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="98"><Run Language="pl-pl" Text="Data urodzenia"/><LineBreak/><Run Language="pl-pl"/></TextBlock>
-                    <DatePicker Grid.Column="3" HorizontalAlignment="Left" Margin="848,644,0,0" VerticalAlignment="Top" Width="120"/>
-                    <TextBlock Grid.Column="3" HorizontalAlignment="Left" Margin="733,684,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="pl-pl" Text="Pesel"/><LineBreak/><Run Language="pl-pl"/></TextBlock>
-                    <Button Content="Zatwierdz&#xD;&#xA;" Grid.Column="3" HorizontalAlignment="Left" Margin="195,337,0,0" VerticalAlignment="Top" Height="38" Width="83"/>
                 </Grid>
             </TabItem >
 
@@ -180,7 +163,7 @@
 
         </TabControl>
 
-       
+
 
     </Grid>
 </Window>
